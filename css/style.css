@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
 button {
@@ -19,13 +20,14 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -35,10 +37,33 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.header-addres {
+  font-style: normal;
+}
+
 .header-addres-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+}
+
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-menu-list li:first-child {
+  color: #2e2f42;
+}
+
+.header-menu-list li:first-child:hover {
+  color: #404bbf;
+}
+
+.header-menu-list li:first-child:focus {
+  color: #404bbf;
 }
 
 /* Section hero */
@@ -57,9 +82,18 @@ ul {
 
 .hero-btn {
   font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4D5AE5
+}
+
+.hero-btn:hover {
+  background-color: #404BBF;
+}
+
+.hero-btn:focus {
+  background-color: #404BBF;
 }
 
 /* Section futures */
@@ -82,23 +116,27 @@ ul {
 .features-item-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /* Section team */
 
-.team {}
+.team {
+  background-color: #F4F4FD
+}
 
 .team-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .team-list {}
 
-.team-item {}
+.team-item {
+  background-color: #FFFFFF;
+}
 
 .team-img {}
 
@@ -108,13 +146,13 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize
 }
 
 .team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 /* Section portfolio */
@@ -139,17 +177,25 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /* footer */
 
+.footer {
+  background-color: #2e2f42;
+}
+
 .footer-logo {
+  color: #4d5ae5;
+}
+
+.footer-logo-span {
   color: #f4f4fd;
 }
 
