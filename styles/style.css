@@ -41,3 +41,46 @@ ul {
   color: #434455;
 }
 
+/* Section hero */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-btn {
+  font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+/* Section futures */
+
+.features {}
+
+.features-title {}
+
+.features-list {}
+
+.features-item {}
+
+.features-item-subject {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-item-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
